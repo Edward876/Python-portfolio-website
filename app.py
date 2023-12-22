@@ -9,7 +9,7 @@ def ac_lottie(url):
     if get.status_code != 200:
         return None
     return get.json()
-st.set_page_config(page_title="Supratim Saha", page_icon=Image.open(os.path.abspath("./image/logo3.png")), layout="wide")
+st.set_page_config(page_title="Supratim Saha", page_icon=Image.open(os.path.abspath("./image/logo4.png")), layout="wide")
 anim = ac_lottie("https://lottie.host/497a3d8f-7c78-460e-a18f-5008232c3097/0Lct3QeUvi.json")
 
 ############## CSS ##############
